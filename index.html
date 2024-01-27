@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Map</title>
+    <!--* Favlink  -->
+    <link rel="shortcut icon" href="./images/Aeroplane_8.png" type="image/x-icon">
+    <!--* Leaflet CSS  -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <!--* Leaflet JS  -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!--* Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--* CSS Link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--! Left Menu  -->
+    <div class="wrapper">
+        <aside>
+            <h1>
+                <span>Notes</span>
+
+            </h1>
+            <form>
+                <div>
+                    <label>Notes Title:</label>
+                    <input placeholder="ex:place visited" type="text">
+                </div>
+                <div>
+                    <label>Add Date:</label>
+                    <input placeholder="ex:28/03/2002" type="date">
+                </div>
+                <div>
+                    <label>Situation:</label>
+                    <select name="select">
+                        <option value="goto">Visit</option>
+                        <option value="park">Park</option>
+                        <option value="home">Home</option>
+                        <option value="work">Work</option>
+                    </select>
+                </div>
+                <div class="buttons">
+                    <button type="submit">Add</button>
+                    <button type="button">Cancel</button>
+
+                </div>
+            </form>
+            <!--! Note List  -->
+            <ul>
+                <!-- <li>
+                    <div class="info">
+                        <p>Title</p>
+                        <p>
+                            <span>Date:</span>
+                            <span>28-03-2002:</span>
+                        </p>
+                        <p>
+                            <span>Sıtuation:</span>
+                            <span>Work</span>
+                        </p>
+                    </div>
+                    <div class="ıcons">
+                        <i id="fly" class="bi bi-airplane-fill"></i>
+                        <i id="delete" class="bi bi-trash3-fill"></i>
+                    </div>
+                </li> -->
+            </ul>
+
+        </aside>
+    </div>
+    <!--! Map  -->
+    <div id="map"></div>
+    <!--* JS Link  -->
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
