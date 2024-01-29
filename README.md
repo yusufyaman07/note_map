@@ -1,4 +1,4 @@
-![note_map](https://github.com/yusufyaman07/note_map/assets/148998418/20c3970b-b7dd-49f2-9b2e-1cbf4d1b306d)# Note_Map:
+# Note_Map:
 Greetings to everyone.Today I created a project for you to take notes on the map I developed.
 
 # Preview:
