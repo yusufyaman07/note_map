@@ -1,4 +1,4 @@
-# Note_Map:
+# Note_Map
 Greetings to everyone.Today I created a project for you to take notes on the map I developed.
 
 # Preview:
